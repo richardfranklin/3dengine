@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="">
+  <head>
+    {{> directory-pagehead}}
+  </head>
+  <body>
+
+    <ul class="directory-list">
+        {{#each this}}
+            <li><a href="templates/{{this}}">{{this}}</a></li>
+        {{/each}}
+    </ul>
+
+  </body>
+</html>
